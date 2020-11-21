@@ -11,7 +11,7 @@ client.once('ready', () => {
 });
 client.on('message', message => {
     //console.log(message.content);
-    if (message.content === "🐈") {
+    if (message.content === "🐈" || "!CatAsAService") {
         message.channel.send('https://cataas.com/cat');
     }
 });
