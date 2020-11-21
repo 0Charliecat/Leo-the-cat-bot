@@ -10,8 +10,11 @@ client.once('ready', () => {
     console.log('Ready!');
 });
 client.on('message', message => {
-    console.log(message.content);
+    //console.log(message.content);
+    if (message.content === "🐈") {
+        message.channel.send('https://cataas.com/cat');
+    }
 });
 
 // login to Discord with your app's token
-client.login('Nzc5NjYzMzE5MTI4NDczNjQw.X7j0DA.3_prqv6R7FWon21ExkjeWf_KpLU');
+client.login('');
