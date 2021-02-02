@@ -1,0 +1,25 @@
+{
+  "name": "leo",
+  "version": "1.0.0",
+  "description": "This is source code of Leo the cat bot!",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.4.1",
+    "eslint": "^7.14.0",
+    "djs-ticketsystem": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "meow"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slovak-cat/Leo-the-cat-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slovak-cat/Leo-the-cat-bot/issues"
+  },
+  "homepage": "https://github.com/slovak-cat/Leo-the-cat-bot#readme"
+}
