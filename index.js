@@ -40,4 +40,4 @@ client.on('message', message => {
         message.channel.send(helpEmbed);
     } else
 }); // login to Discord with your app's token
-client.login('Nzc5NjYzMzE5MTI4NDczNjQw.X7j0DA.DVlEMe-HuHHqniDHwuPpJpadOwg')
+client.login('ODAzNjExODQyOTg3NTU2ODk2.YBAT2Q.Q0ASJ8h-9SLX41jPELIga8sC7FY')
